@@ -1,0 +1,27 @@
+<div class="project-selector">
+    <mat-form-field appearance="fill" class="project-select-field">
+      <mat-label>Projekt auswählen</mat-label>
+      <mat-select [(value)]="selectedProjectKey" (selectionChange)="onProjectSelectionChange()">
+        <mat-option *ngFor="let project of projects" [value]="project.key">
+          {{ project.name }} ({{ project.key }})
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  
+    <button
+      mat-raised-button
+      color="accent"
+      (click)="onFetchReleaseNotes()"
+      [disabled]="!selectedProjectKey || isLoading"
+      class="fetch-button"
+    >
+      <mat-icon>description</mat-icon>
+      Release Notes generieren
+    </button>
+  
+    <div *ngIf="isLoading" class="loading">
+      <mat-progress-spinner mode="indeterminate" diameter="30"></mat-progress-spinner>
+      <span>Release Notes werden generiert...</span>
+    </div>
+  </div>
+  

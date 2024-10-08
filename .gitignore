@@ -1,0 +1,21 @@
+# Node.js related
+node_modules/
+dist/
+*.log
+
+# IntelliJ IDEA related
+.idea/
+*.iml
+
+# macOS related
+.DS_Store
+
+# Windows related
+Thumbs.db
+
+# Build output directories
+build/
+target/
+
+# Secret files
+**/application.properties
