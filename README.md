@@ -39,7 +39,20 @@ Hier sind die Anweisungen, wie Sie das Backend und Frontend der Anwendung einric
    ```bash
    git clone https://github.com/valmiremini/jira-summary-demo.git
    cd jira-summary-demo
+   
+2. **application.properties konfigurieren:**
 
+   Erstellen Sie die Datei `src/main/resources/application.properties` und fügen Sie die folgenden Konfigurationen hinzu:
+
+   ```properties
+   spring.application.name=BewerbungsDemo
+
+   # Jira-Einstellungen
+   jira.url=https://xxxx.atlassian.net/rest/api/3
+   jira.auth.key=xxxx
+
+   # OpenAI-Einstellungen
+   openai.api.key=xxxx
 
 https://github.com/user-attachments/assets/3c8bb7ff-290c-40c7-aa05-66e1828e980d
 
