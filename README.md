@@ -39,3 +39,9 @@ Hier sind die Anweisungen, wie Sie das Backend und Frontend der Anwendung einric
    ```bash
    git clone https://github.com/username/jira-summary-demo.git
    cd jira-summary-demo
+
+
+https://github.com/user-attachments/assets/3c8bb7ff-290c-40c7-aa05-66e1828e980d
+
+
+
