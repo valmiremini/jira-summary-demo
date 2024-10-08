@@ -37,7 +37,7 @@ Hier sind die Anweisungen, wie Sie das Backend und Frontend der Anwendung einric
    Klonen Sie das GitHub-Repository auf Ihren lokalen Rechner:
 
    ```bash
-   git clone https://github.com/username/jira-summary-demo.git
+   git clone https://github.com/valmiremini/jira-summary-demo.git
    cd jira-summary-demo
 
 
