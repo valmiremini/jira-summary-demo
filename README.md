@@ -1,4 +1,4 @@
-# Bewerbungs-Demo - Jira Comments Summary
+# jira-summary-generator - Jira Comments Summary
 
 Diese Anwendung fasst die Kommentare eines Jira-Projekts mithilfe der OpenAI API zusammen. Dadurch sparen Scrum Master, Product Owner und andere Stakeholder Zeit, indem sie schnell auf eine Zusammenfassung aller Kommentare zu einem bestimmten Projekt zugreifen können, anstatt jedes einzelne Kommentar manuell lesen zu müssen.
 
